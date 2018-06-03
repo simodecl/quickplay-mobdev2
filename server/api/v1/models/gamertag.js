@@ -5,7 +5,7 @@ const GamertagSchema = new Schema(
   {
     profile: {
       type: Schema.Types.ObjectId,
-      ref: 'Profile'
+      ref: 'profile'
     },
     name: { 
       type: String,

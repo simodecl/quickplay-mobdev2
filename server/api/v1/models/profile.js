@@ -6,7 +6,7 @@ const config = require('../../../config/config');
 const ProfileSchema = new Schema({
     user: {
         type: Schema.Types.ObjectId,
-        ref: 'User'
+        ref: 'user'
     },
     handle: {
         type: String,

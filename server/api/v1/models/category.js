@@ -18,10 +18,10 @@ const CategorySchema = new Schema(
 
 CategorySchema.virtual('id').get(() => this._id );
 CategorySchema.virtual('posts', {
-  ref: 'Post',
+  ref: 'post',
   localField: '_id',
   foreignField: '_category',
   justOne: false
 });
 
-module.exports = mongoose.model('Category', CategorySchema);
+module.exports = mongoose.model('category', CategorySchema);
