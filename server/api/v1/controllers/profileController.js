@@ -1,7 +1,7 @@
 // Load Profile Model
 const Profile = require('../models/Profile');
 // Load User Model
-const User = require('../models/User');
+const User = require('../models/user');
 // Load Gamertag Model
 const Gamertag = require('../models/Gamertag');
 

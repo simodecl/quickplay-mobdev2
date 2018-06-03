@@ -2,7 +2,7 @@ const async = require('async');
 
 const Post = require('../models/post');
 const Category = require('../models/category');
-const User = require('../models/User');
+const User = require('../models/user');
 const errorHandler = require('../utilities/errorHandler');
 
 /*

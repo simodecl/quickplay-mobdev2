@@ -1,6 +1,6 @@
 const passport = require('passport');
 
-const User = require('../models/User');
+const User = require('../models/user');
 const errorHandler = require('../utilities/errorHandler');
 const tokenUtils = require('../utilities/token');
 const config = require('../../../config/config');

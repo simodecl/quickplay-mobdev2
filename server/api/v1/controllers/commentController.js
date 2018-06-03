@@ -1,6 +1,6 @@
 const async = require('async');
 
-const User = require('../models/User');
+const User = require('../models/user');
 const Comment = require('../models/comment');
 const errorHandler = require('../utilities/errorHandler');
 

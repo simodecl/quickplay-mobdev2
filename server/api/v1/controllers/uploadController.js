@@ -4,7 +4,7 @@ const app = express();
 const firebase = require('firebase');
 const googleStorage = require('@google-cloud/storage');
 const config = require('../../../config/config');
-const User = require('../models/User');
+const User = require('../models/user');
 const errorHandler = require('../utilities/errorHandler');
 
 const storage = googleStorage({

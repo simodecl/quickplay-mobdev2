@@ -23,7 +23,7 @@ const jwtOptions = {
 /*
 Models
 */
-const User = require('../models/User');
+const User = require('../models/user');
 
 /*
 Exported functions
