@@ -27,7 +27,7 @@ const ProfileSchema = new Schema({
 
 ProfileSchema.virtual('id').get(() => this._id );
 ProfileSchema.virtual('gamertags', {
-    ref: 'Gamertag',
+    ref: 'gamertag',
     localField: '_id',
     foreignField: 'profile'
   });
