@@ -1,9 +1,9 @@
 // Load Profile Model
-const Profile = require('../models/Profile');
+const Profile = require('../models/profile');
 // Load User Model
 const User = require('../models/user');
 // Load Gamertag Model
-const Gamertag = require('../models/Gamertag');
+const Gamertag = require('../models/gamertag');
 
 const validateProfileInput = require('../../../../validation/profile');
 

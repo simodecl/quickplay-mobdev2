@@ -35,4 +35,4 @@ GamertagSchema.virtual('id').get(() => this._id );
 
 
 
-module.exports = mongoose.model('Gamertag', GamertagSchema);
+module.exports = mongoose.model('gamertag', GamertagSchema);

@@ -33,4 +33,4 @@ ProfileSchema.virtual('gamertags', {
   });
 
 
-module.exports = Profile = mongoose.model('Profile', ProfileSchema);
+module.exports = Profile = mongoose.model('profile', ProfileSchema);
