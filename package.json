@@ -30,7 +30,9 @@
     "slugify": "^1.2.9",
     "socket.io": "^2.1.0",
     "url": "^0.11.0",
-    "validator": "^9.4.1"
+    "validator": "^9.4.1",
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.15.1"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",

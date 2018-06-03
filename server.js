@@ -29,7 +29,7 @@ var httpsOptions = {
 };
 const server = https.Server(httpsOptions, app);
 const hostName = 'localhost';
-const port = '443';
+const port = process.env.PORT || '443';
 const nodeEnv = (process.env.NODE_ENV)?process.env.NODE_ENV:'development';
 if(nodeEnv !== 'production') {
     console.log('Do some development stuff!');
@@ -85,6 +85,6 @@ app.use((err, req, res, next) => {
 /*
 Launch server
 */
-server.listen(port, hostName, () => {
+app.listen(port, hostName, () => {
     console.log(`Node server running at https://${hostName}:${port}/!`)
 });
