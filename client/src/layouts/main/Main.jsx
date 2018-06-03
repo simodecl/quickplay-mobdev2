@@ -40,7 +40,7 @@ class Main extends Component {
         <Offcanvas />
         <Header />
         <Switch>
-          <Route exact path='/' component={HomePage}/>
+          <PrivateRoute exact path='/' component={HomePage}/>
           <PrivateRoute exact path='/settings' component={SettingsPage}/>
           <Redirect from='/posts/general' to='/posts' strict/>
           <Route exact path='/posts' component={PostsPage}/>
