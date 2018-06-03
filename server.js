@@ -21,13 +21,7 @@ const routes = require('./server/config/routes');
 /*
 Settings
 */
-const key = fs.readFileSync('encryption/cert.key');
-const cert = fs.readFileSync('encryption/cert.pem');
-var httpsOptions = {
-    key: key,
-    cert: cert,
-};
-const server = https.Server(httpsOptions, app);
+
 const hostName = 'localhost';
 const port = process.env.PORT || '443';
 const nodeEnv = (process.env.NODE_ENV)?process.env.NODE_ENV:'development';
