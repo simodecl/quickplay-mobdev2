@@ -1,0 +1,76 @@
+
+
+.file-form {
+    justify-content: center;
+    padding-left: 20px;
+}
+.file-form input {
+    margin-top: 10px;
+}
+.settings-container {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.settings-avatar {
+    margin-bottom: 0px;
+}
+.settings-item {
+    width: 50%;
+    min-width: 300px;
+    padding-left: 20px;
+}
+.file-button {
+    border: 1px solid #6441a4;
+    background: transparent;
+    color: #fff;
+}
+.settings-button {
+    width: 100px;
+}
+.settings-name-form {
+    margin-top: 40px;
+}
+
+.settings-items {
+    min-width: 300px;
+    padding-left: 20px;
+}
+.settings-profile-fields, .settings-tags-fields {
+    width: 100%;
+}
+.settings-profile-fields .group-form {
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.settings-profile-fields .group-form textarea {
+    height: 100px;
+    max-width: 90% !important;
+    width: 90%;
+}
+.settings-profile-fields .group-form .icon-input-group {
+    width: 100%;
+}
+
+.tags-column {
+    width: 50%;
+    padding-left: 20px;
+}
+.X {
+    padding-left: 40px;
+}
+.delete-button {
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .settings-profile-fields .group-form {
+        width: 100%;
+    }
+    .settings-tags-fields {
+        flex-direction: column;
+    }
+}

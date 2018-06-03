@@ -1,0 +1,16 @@
+.auth-logo {
+    width: 150px;
+    position: relative;
+    margin-bottom: -20px;
+}
+.auth-title {
+    font-family: 'Gugi', 'cursive';
+}
+.auth-header {
+    position: relative;
+    margin: 0 auto;
+    width: 150px;
+    top: 100px;
+    margin-bottom: -55px;
+    margin-top: -55px;
+}

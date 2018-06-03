@@ -1,0 +1,30 @@
+.search-form {
+    display: flex;
+}
+
+.search {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    margin-left: -15px;
+}
+.fa-search {
+    position: relative;
+    left: 30px;
+    color: #898395;
+    z-index: 1;
+}
+.search input {
+    border: 1px solid #392e5c;
+    background: #0e0c13;
+    color: #fff;
+    display: block;
+    position: relative;
+    width: 100%;
+    border-radius: 0;
+    outline: 0;
+    padding: 10px 10px 10px 40px;
+}
+.profiles {
+    max-width: 540px;
+}

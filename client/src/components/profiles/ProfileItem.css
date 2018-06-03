@@ -1,0 +1,47 @@
+.profiles-card {
+    margin: 20px 0;
+}
+.profile-card-column {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.profiles-main {
+    width: 100%;
+    padding: 0 20px;
+    align-content: center;
+}
+.profiles-main .avatar-container {
+    align-self: center;
+}
+.profiles-bio {
+    overflow-x: wrap;
+    max-height: 150px;
+    overflow-y: hidden; 
+}
+.profiles-info {
+    width: 100%;
+}
+.view-profile {
+    text-decoration: none;
+    margin: 20px;
+}
+.profile-games {
+    justify-content: flex-start;
+    margin-left: 0;
+}
+.profile-game {
+    background-color: #392e5c;
+    border-radius: 5%;
+    padding: 5px 10px;
+    margin: 10px 20px 10px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .profiles-bio {
+        max-height: 150px;
+    }
+    .profiles-info {
+        width: 100%;
+    }
+}

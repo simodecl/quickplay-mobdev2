@@ -1,0 +1,43 @@
+.auth-form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    padding-top: 100px;
+}
+.form-title {
+    text-align: center;;
+}
+.auth-form, .group-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.group-form {
+    width: 300px;
+}
+.icon-input-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.icon-input-group input, .icon-input-group textarea {
+    width: 280px;
+    max-width: 280px;
+    min-width: 280px;
+    background: #17141f;
+    border: 1px solid #392e5c;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    color: #FFF;
+}
+.icon-input-group input:focus, .icon-input-group textarea:focus {
+    border: 1px solid #7d5bbe;
+    outline: none;
+}
+.auth-icon {
+    width: 20px;
+}
+.auth-button {
+    margin: 10px 0;
+}

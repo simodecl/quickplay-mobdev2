@@ -1,0 +1,19 @@
+.post-button {
+    width: 280px;
+    margin: 20px;
+
+}
+.create-post-field, .create-post-area {
+    width: 100% !important;
+    max-width: 500px !important;
+    margin-right: 20px;
+}
+.create-post-area {
+    height: 150px;
+}
+.create-post-form .group-form {
+    width: 100%;
+}
+.create-post-form .group-form .icon-input-group {
+    width: 100%;
+}

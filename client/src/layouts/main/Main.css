@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi|Lato:300,400,700');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/brands.css');
+
+
+
+body {
+    background: #17141f;
+    color: #FFF;
+    font-family: 'Lato', 'sans-serif';
+}
+.main {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+a {
+    color: #fff;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+button {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.card {
+    background: #201c2b;
+    border: 1px solid #2c2541;
+}
+.avatar-container {
+    position: relative;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid 4px #6441A4;
+    margin: 20px;
+}
+.avatar-container-mini {
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid 2px #6441A4;
+    margin: 10px;
+}
+.avatar-container-icon {
+    position: relative;
+    overflow: hidden;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: solid 2px #6441A4;
+    margin: 10px;
+}
+
+.avatar {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    width: 150px;
+}
+.avatar-mini {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    width: 50px;
+}
+.avatar-icon {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    width: 25px;
+}
+.button {
+    color: #FFF;
+    background: #6441A4;
+    padding: 5px 10px;
+    border: solid 1px transparent;
+}
+.button:hover {
+    cursor: pointer;
+    background: #7d5bbe;
+}
+.auth-button {
+    width: 300px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.fullwidth {
+    width: 100% !important;
+}
+
+.fa-battlenet::before {
+    background-image: url('../../images/battlenet.png');
+    background-size: 18px 18px;
+    display: inline-block;
+    width: 18px; 
+    height: 18px;
+    content:"";
+}
+.fa-epic::before {
+    background-image: url('../../images/epic-games.png');
+    background-size: 18px 18px;
+    display: inline-block;
+    width: 18px; 
+    height: 18px;
+    content:"";
+}
+.fa-riot::before {
+    background-image: url('../../images/league-of-legends.png');
+    background-size: 18px 18px;
+    display: inline-block;
+    width: 18px; 
+    height: 18px;
+    content:"";
+}
+.red {
+    background: #ff2b2b;
+}
+.red:hover {
+    background: #f16667;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

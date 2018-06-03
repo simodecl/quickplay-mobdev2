@@ -1,0 +1,12 @@
+.profile-avatar {
+    position: relative;
+    margin: 0 auto;
+    top: 100px;
+    margin-top: -55px;
+}
+.profile-name {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,109 @@
+.options {
+	float: right;
+	color: #A7A7A7;
+	cursor: pointer;
+	margin: 8px;
+	position: relative;
+}
+
+.options label {
+	padding: 8px;
+	cursor: pointer;
+}
+
+.options i {
+	float: right;
+}
+
+.options input[type=checkbox] {
+	display: none;
+}
+
+.options input[type=checkbox]:checked+.option-list {
+	display: block;
+}
+
+.options .option-list {
+  color: #FFF;
+	z-index: 10;
+	font-weight: 500;
+	user-select: none;
+	display: none;
+	cursor: pointer;
+	top: 20px;
+	right: 12px;
+	background-color: #392e5c;
+	padding: 12px;
+	box-sizing: border-box;
+	position: absolute;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.post.detail .options .option-list,
+.comment-thread .options .option-list {
+	right: -8px;
+}
+
+
+.option-list p:first-of-type {
+	font-style: italic;
+	text-transform: capitalize;
+	margin-bottom: 8px;
+}
+
+
+
+.timestamp::before {
+	content: '-';
+	margin: 0 8px;
+	color: #A7A7A7;
+	font-size: 8px;
+	font-weight: 300;
+}
+
+.timestamp {
+	color: #A7A7A7;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.comment-thread {
+	padding: 8px 16px;
+	box-sizing: border-box;
+}
+
+.comment {
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+.comment p {
+	margin: 8px 0;
+}
+
+.author {
+  align-items: center;
+}
+
+.comment-form form {
+ margin: 20px;
+}
+.comment-button {
+	margin-left: 20px;
+}
+.create-comment {
+  width: 100% !important;
+  max-width: 500px !important;
+  margin-right: 20px;
+}
+.create-comment {
+  height: 150px;
+}
+.comment-form form .group-form {
+  width: 100%;
+  
+}
+.comment-form form .group-form .icon-input-group {
+  width: 100%;
+  margin: 0;
+}
