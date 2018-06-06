@@ -22,7 +22,7 @@ exports.get_profile = function(req, res, next) {
       .catch(err => res.status(404).json(err));
 }
 
-exports.get_profiles = function(req, res, next) {
+exports.get_profiles = (req, res, next) => {
     const errors = {};
 
     Profile.find()
@@ -39,7 +39,7 @@ exports.get_profiles = function(req, res, next) {
       .catch(err => res.status(404).json({ profile: 'There are no profiles' }));
 }
 
-exports.get_profile_by_handle = function(req, res, next) {
+exports.get_profile_by_handle = (req, res, next) => {
     const errors = {};
 
     Profile.findOne({ handle: req.params.handle })
@@ -56,7 +56,7 @@ exports.get_profile_by_handle = function(req, res, next) {
         .catch(err => res.status(404).json(err));
 }
 
-exports.get_profile_by_user_id = function(req, res, next) {
+exports.get_profile_by_user_id = (req, res, next) => {
     const errors = {};
 
     Profile.findOne({ user: req.params.user_id })
@@ -75,7 +75,7 @@ exports.get_profile_by_user_id = function(req, res, next) {
         );
 }
 
-exports.profile_create_post = function(req, res, next) {
+exports.profile_create_post = (req, res, next) => {
     const { errors, isValid } = validateProfileInput(req.body);
 
     // Check Validation
@@ -116,7 +116,7 @@ exports.profile_create_post = function(req, res, next) {
     })
 }
 
-exports.profile_update_patch = function(req, res, next) {
+exports.profile_update_patch = (req, res, next) => {
   const { errors } = validateProfileInput(req.body);
 
   // Get fields

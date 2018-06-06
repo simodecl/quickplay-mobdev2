@@ -29,7 +29,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://localhost:443",
+  "proxy": "https://quickplay-mobdev2.herokuapp.com",
   "devDependencies": {
     "node-sass-chokidar": "^1.2.2",
     "npm-run-all": "^4.1.2"
